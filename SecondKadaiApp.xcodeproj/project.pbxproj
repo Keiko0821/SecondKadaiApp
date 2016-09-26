@@ -14,6 +14,7 @@
 		E952311C1D97B82F00F3B6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E952311A1D97B82F00F3B6D3 /* LaunchScreen.storyboard */; };
 		E95231271D97B82F00F3B6D3 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95231261D97B82F00F3B6D3 /* SecondKadaiAppTests.swift */; };
 		E95231321D97B82F00F3B6D3 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95231311D97B82F00F3B6D3 /* SecondKadaiAppUITests.swift */; };
+		E98CA2131D97BB3500FE275D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CA2121D97BB3500FE275D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E952312D1D97B82F00F3B6D3 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95231311D97B82F00F3B6D3 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		E95231331D97B82F00F3B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98CA2121D97BB3500FE275D /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E95231111D97B82F00F3B6D3 /* AppDelegate.swift */,
 				E95231131D97B82F00F3B6D3 /* ViewController.swift */,
 				E95231151D97B82F00F3B6D3 /* Main.storyboard */,
+				E98CA2121D97BB3500FE275D /* ResultViewController.swift */,
 				E95231181D97B82F00F3B6D3 /* Assets.xcassets */,
 				E952311A1D97B82F00F3B6D3 /* LaunchScreen.storyboard */,
 				E952311D1D97B82F00F3B6D3 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				E95231141D97B82F00F3B6D3 /* ViewController.swift in Sources */,
 				E95231121D97B82F00F3B6D3 /* AppDelegate.swift in Sources */,
+				E98CA2131D97BB3500FE275D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				E95231381D97B82F00F3B6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E95231391D97B82F00F3B6D3 /* Build configuration list for PBXNativeTarget "SecondKadaiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				E952313B1D97B82F00F3B6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E952313C1D97B82F00F3B6D3 /* Build configuration list for PBXNativeTarget "SecondKadaiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				E952313E1D97B82F00F3B6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
